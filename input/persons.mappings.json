@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "personId": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "text"
+    },
+    "nameGroup": {
+      "properties": {
+        "givenname": {
+          "type": "text"
+        },
+        "surname": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}
